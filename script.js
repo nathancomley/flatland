@@ -1,4 +1,4 @@
-var = square = document.getElementById('square');
+var square = document.getElementById('square');
 
 function changeColour(colour) {
     square.style.background = colour;
