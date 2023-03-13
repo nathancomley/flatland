@@ -1,7 +1,7 @@
 var = square = document.getElementById('square');
 
 function changeColour(colour) {
-    square.background = colour;
+    square.style.background = colour;
 
 }
 
