@@ -2,12 +2,13 @@ var square = document.getElementById('square');
 
 function changeColour(colour) {
     square.style.background = colour;
-
 }
 
 square.addEventListener('click', (event) => changeColour('green'));
 
+/* create hover effect */
 square.addEventListener('mouseover', (event) => changeColour('grey'));
+square.addEventListener('mouseout', (event) => changeColour('red'));
 
 
 function createBuzzwordPhrase() {
