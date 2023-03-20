@@ -6,6 +6,8 @@ function clicked() {
     words.innerHTML = msg;
 }
 
+square.addEventListener('click', (event) => clicked());
+
 function greeting() {
     words.innerHTML = "Welcome to flatland <br> I am Square!";
 }
