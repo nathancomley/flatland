@@ -1,4 +1,13 @@
 var square = document.getElementById('square');
+var words = document.getElementById('words');
+
+function greeting() {
+    words.innerHTML = "Welcome to flatland <br> I am Square!"
+}
+
+document.onload = greeting()
+
+
 
 function changeColour(colour) {
     square.style.background = colour;
