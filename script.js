@@ -1,8 +1,13 @@
 var square = document.getElementById('square');
 var words = document.getElementById('words');
 
+function clicked() {
+    var msg = "Build a<br>" +createBuzzwordPhrase();
+    words.innerHTML = msg;
+}
+
 function greeting() {
-    words.innerHTML = "Welcome to flatland <br> I am Square!"
+    words.innerHTML = "Welcome to flatland <br> I am Square!";
 }
 
 document.onload = greeting()
